@@ -9,6 +9,7 @@ import RichText from '../../_components/RichText'
 import classes from './index.module.scss'
 
 export const CustomHero: React.FC<Page['hero']> = ({ richText, media, links }) => {
+    const mediaUrl
   return (
     <section className={classes.hero}>
       <div className={classes.heroWrapper}>
